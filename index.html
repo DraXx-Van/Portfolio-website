@@ -1,144 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Dakshat Jain</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "1IRp5mxnbKQiBucuI",
+            });
+        })();
+    </script>
 </head>
+
 <body>
 
-<!-- ===== HEADER ===== -->
-<header class="header">
-    <div class="logo">Dakshat Jain</div>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="logo">Dakshat Jain</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<!-- ===== HERO ===== -->
-<section class="hero" id="home">
-    <div class="hero-content">
-        <h1>Hi, I'm Dakshat Jain</h1>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Dakshat Jain</h1>
+            <p>
+                A student developer focused on <strong>MERN Stack</strong>,
+                <strong>Java</strong>, and <strong>Data Structures & Algorithms</strong>.
+                I enjoy building responsive web applications and solving
+                real-world problems through clean and efficient code.
+            </p>
+            <a href="#contact" class="btn">Let's get started →</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="photo.png" alt="Profile">
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
         <p>
-            A student developer focused on <strong>MERN Stack</strong>, 
-            <strong>Java</strong>, and <strong>Data Structures & Algorithms</strong>. 
-            I enjoy building responsive web applications and solving 
-            real-world problems through clean and efficient code.
+            I’m Dakshat Jain, a student and aspiring software developer with a strong
+            interest in full-stack web development and problem solving.
+            I primarily work with the <strong>MERN Stack</strong> to build modern,
+            responsive web applications.
+            <br><br>
+            Alongside development, I actively practice <strong>Data Structures and
+                Algorithms in Java</strong>, which helps me write optimized and scalable
+            code. I enjoy learning new technologies, improving my logic,
+            and building projects that strengthen my fundamentals.
+            <br><br>
+            My goal is to become a skilled software engineer and contribute to
+            impactful real-world applications.
         </p>
-        <a href="#contact" class="btn">Let's get started →</a>
-    </div>
 
-    <div class="hero-image">
-        <img src="photo.png" alt="Profile">
-    </div>
-</section>
+    </section>
 
-<!-- ===== ABOUT ===== -->
-<section class="section" id="about">
-    <h2>About Me</h2>
-    <p>
-        I’m Dakshat Jain, a student and aspiring software developer with a strong
-        interest in full-stack web development and problem solving.
-        I primarily work with the <strong>MERN Stack</strong> to build modern,
-        responsive web applications.
-        <br><br>
-        Alongside development, I actively practice <strong>Data Structures and
-        Algorithms in Java</strong>, which helps me write optimized and scalable
-        code. I enjoy learning new technologies, improving my logic,
-        and building projects that strengthen my fundamentals.
-        <br><br>
-        My goal is to become a skilled software engineer and contribute to
-        impactful real-world applications.
-    </p>
+    <!-- ===== EDUCATION ===== -->
+    <section class="section dark" id="education">
+        <h2>Education</h2>
 
-</section>
-
-<!-- ===== EDUCATION ===== -->
-<section class="section dark" id="education">
-    <h2>Education</h2>
-
-    <div class="edu-card">
-        <h3>SVPV</h3>
-        <span>2021 – 2022</span>
-        <p>Class 10</p>
-    </div>
-
-    <div class="edu-card">
-        <h3>SVPV College</h3>
-        <span>2022 – 2024</span>
-        <p>College 11-12</p>
-    </div>
-    <div class="edu-card">
-        <h3>Fr. Conceicao Rodrigues College of Engineering</h3>
-        <span>2024 – 2028</span>
-        <p>Computer Engineering Btech </p>
-    </div>
-</section>
-
-<!-- ===== SKILLS ===== -->
-<section class="section" id="skills">
-    <h2>Skills</h2>
-
-    <div class="skills-grid">
-
-        <div class="skill-card">
-            <i class="devicon-mongodb-plain colored"></i>
-            <p>MongoDB</p>
+        <div class="edu-card">
+            <h3>SVPV</h3>
+            <span>2021 – 2022</span>
+            <p>Class 10</p>
         </div>
 
-        <div class="skill-card">
-            <i class="devicon-express-original"></i>
-            <p>Express.js</p>
+        <div class="edu-card">
+            <h3>SVPV College</h3>
+            <span>2022 – 2024</span>
+            <p>College 11-12</p>
         </div>
-
-        <div class="skill-card">
-            <i class="devicon-react-original colored"></i>
-            <p>React</p>
+        <div class="edu-card">
+            <h3>Fr. Conceicao Rodrigues College of Engineering</h3>
+            <span>2024 – 2028</span>
+            <p>Computer Engineering Btech </p>
         </div>
+    </section>
 
-        <div class="skill-card">
-            <i class="devicon-nodejs-plain colored"></i>
-            <p>Node.js</p>
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i class="devicon-mongodb-plain colored"></i>
+                <p>MongoDB</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="devicon-express-original"></i>
+                <p>Express.js</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="devicon-react-original colored"></i>
+                <p>React</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="devicon-nodejs-plain colored"></i>
+                <p>Node.js</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="devicon-java-plain colored"></i>
+                <p>Java</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="devicon-python-plain colored"></i>
+                <p>Python</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="devicon-java-plain colored"></i>
+                <p>DSA (Java)</p>
+            </div>
+
         </div>
+    </section>
 
-        <div class="skill-card">
-            <i class="devicon-java-plain colored"></i>
-            <p>Java</p>
-        </div>
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+        <h2>Contact Me</h2>
 
-        <div class="skill-card">
-            <i class="devicon-python-plain colored"></i>
-            <p>Python</p>
-        </div>
+        <form class="contact-form" id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
-        <div class="skill-card">
-            <i class="devicon-java-plain colored"></i>
-            <p>DSA (Java)</p>
-        </div>
+    <footer class="footer">
+        © 2026 Dakshat Jain. All rights reserved.
+    </footer>
 
-    </div>
-</section>
-
-<!-- ===== CONTACT ===== -->
-<section class="section" id="contact">
-    <h2>Contact Me</h2>
-
-    <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
-
-<footer class="footer">
-    © 2026 Dakshat Jain. All rights reserved.
-</footer>
-
+    <script src="email.js"></script>
 </body>
+
 </html>
